@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8>">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Game</title>
+        <!-- JS link -->
+        <script src="code.js"></script>
+</head>
+<body>
+    <header>
+        <!-- game welcome and title -->
+        <h1 id="heading">Weclome to my game</h1>
+        <!--creator tag -->
+        <p> made by Julian Rendon</p>
+        <!-- instructions -->
+        <button type="button" onclick="play();">Play</button>
+        <!--p tag for innerHTML-->
+        <p id="push"></p>
+    </header>
+</body>
+</html>
