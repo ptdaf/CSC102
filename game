@@ -6,6 +6,8 @@
         <title>JavaScript Game</title>
         <!-- JS link -->
         <script src="code.js"></script>
+        <!-- CSS link -->
+        <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
