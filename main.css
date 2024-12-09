@@ -1,6 +1,11 @@
 /* 
 declaration block:
 */
+
+header{
+    display:block;
+}
+
 body{
     text-align: center;
     background-color: bisque;
