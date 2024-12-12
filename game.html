@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8>">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JavaScript Game</title>
+        <title>My Game</title>
         <!-- JS link -->
         <script src="code.js"></script>
         <!-- CSS link -->
-        <link rel="stylesheet" href="main.css">
-</head>
-<body>
+         <link rel="stylesheet" href="main.css">
+    </head>
     <header>
-        <!-- game welcome and title -->
-        <h1 id="heading">Weclome to my game</h1>
-        <!--creator tag -->
-        <p> made by Julian Rendon</p>
-        <!-- instructions -->
-        <button type="button" onclick="play();">Play</button>
-        <!--p tag for innerHTML-->
-        <p id="push"></p>
-    </header>
-</body>
+        <!--Nav Header-->
+        <h2>
+            <nav>
+            <a href="./index.html">Home</a>
+            <a href="./boards.html">Boards</a>
+            <a href="./game.html">Game</a>
+            <a href="./strings.html">Strings</a>
+            <a href="./Palindrome checka.html">Palindrome</a>
+            </nav>  
+        </h2>
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+<!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
+</header>
+
+<!--Game page-->
+    <body>
+        <div class="game">
+            <!-- game welcome and title -->
+            <h3 id="heading">Welcome to my game</h3>
+            <!--creator tag -->
+            <p> made by Julian Rendon</p>
+            <!-- button -->
+            <button type="button" onclick="playGame();">Play</button>
+            <!--p tag for innerHTML-->
+            <p id="push"></p>
+        </div>
+    </body>
+    
+<!--image-->
+<p>
+    <img id="img" src="evao2.png" style="height: 15%; width: 15%;" alt="Eva">
+</p>
+<!--sign-->
+<footer>
+Julian Rendon<br>
+ University of Advancing Technology<br>
+2625 W Baseline Rd<br>
+Tempe, Arizona 85283<br>
+</footer>
 </html>
