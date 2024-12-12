@@ -3,28 +3,111 @@ declaration block:
 */
 
 html{
-    background-color:rgb(255, 255, 255);
-    padding-top:0cqmin;
-    border: black;
+    background-color:#cfcdce;
 }
 
 header{
-    margin: 0;
-    background-color: rgb(2, 69, 128);
+    margin:auto;
+    background-color: rgb(129, 41, 20);
     min-height: 10vh;
-    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
 
-body{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+h1{
+    padding-bottom: 20px;
+    font-family: Verdana;
+}
+
+nav{
+    display: inline;
+    padding: 7px;
+    background-color: rgb(158, 57, 57);
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: verdana;
+    background-color: transparent;
     color: black;
 }
 
+a:link{
+    text-align: left;
+    color:rgb(245, 181, 43);
+    text-decoration: underline;
+    font-family: Verdana;
+}
+
+a:visited{
+    color: rgb(255, 230, 0);
+    background-color: black;
+    text-decoration: underline;
+}
+
+body{
+    text-align: center;
+    color: black;
+    margin: 0%;
+}
 
 footer{
+    font-size: 20px;
     text-align: center;
     margin-right: auto;
 
+}
+
+.left{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-family: Verdana;
+}
+
+.game{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+button{
+    height: 100px;
+    width: 250px;
+    font-size: 50px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+}
+
+.verify{
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+.Palindrome{
+    font-size: 20;
+    font-family: verdana;
+    background-color: transparent;
+    color: black;
+}
+
+audio{
+    padding: 5px;
+    background-color: green;
+    max-height: 50px;
+    border-radius: 30px ;
+}
+
+picture{
+    position: absolute;
+    left: 0px;
+    top: 10px;
 }
