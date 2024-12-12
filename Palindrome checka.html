@@ -1,3 +1,4 @@
+<!--Julian Rendon-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,29 +10,46 @@
     <!-- CSS file -->
     <link rel="stylesheet" href="main.css">
 </head>
-
 <header>
     <!--Nav Header-->
-    <nav>
-        <h2>
+    <h2>
+        <nav>
         <a href="./index.html">Home</a>
         <a href="./boards.html">Boards</a>
         <a href="./game.html">Game</a>
         <a href="./strings.html">Strings</a>
         <a href="./Palindrome checka.html">Palindrome</a>
-        </h2>  
-    </nav>
+        </nav>  
+    </h2>
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+<!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+    
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+    
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
 </header>
-
 <body>
     <div class="Palindrome">
     <!-- Title-->
     <h3>Palindrome Checker</h3>
     <!-- Description -->
-    <h3>Is your word a Palindrome?</h3>
+    <p>Is your word a Palindrome?</p>
     <!-- Palindrome definition -->
-    <h3>A Palindrome is a word that is spelt the same way forward and backward.</h3>
-
+    <p>A Palindrome is a word that is spelt the same way forward and backward.</p>
+        
     <!-- User Input and Button -->
         <label id="text-label">Enter your word: </label>
         <input id="text-input" type="text">
@@ -39,4 +57,14 @@
         <p id="result"></p>
     </div>
 </body>
+<!--sign-->
+<p>
+    <img id="img" src="evao2.png" style="height: 15%; width: 15%;" alt="Eva">
+</p>
+<footer>
+Julian Rendon<br>
+ University of Advancing Technology<br>
+2625 W Baseline Rd<br>
+Tempe, Arizona 85283<br>
+</footer>
 </html>
