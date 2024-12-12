@@ -1,26 +1,72 @@
+<!--Julian Rendon-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation</title>
     <script src="string.js"></script>
-    <link rel="stylesheet" href="strings.css">
+    <link rel="stylesheet" href="main.css">
 </head>
+<header>
+    <!--Nav Header-->
+    <h2>
+        <nav>
+        <a href="./index.html">Home</a>
+        <a href="./boards.html">Boards</a>
+        <a href="./game.html">Game</a>
+        <a href="./strings.html">Strings</a>
+        <a href="./Palindrome checka.html">Palindrome</a>
+        </nav>  
+    </h2>
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+<!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+        
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+        
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
+</header>
 <body>
     <!--Page Title-->
-    <h1>Please Fill</h1>
+    <h3 id="heading">Please Fill</h3>
     <!--validation fillout boxes-->
-    <form id="SecretForm" onsubmit="validateform()">
-        <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" name="firstname" required><br><br>
+    <div class="verify">
+        <form id="SecretForm" onsubmit="validateform()">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required><br><br>
 
-        <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" name="lastname" required><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
 
-        <label for="zipcode">Zip Code:</label>
-        <input type="text" id="zipcode" name="zipcode" required><br><br>
-    <!--Submit Button-->
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode" name="zipcode" required><br><br>
+        <!--Submit Button-->
         <input type="submit" value="submit" id="button"><br><br>
     </form>
+    </div>
 </body>
+
+<!--Sign-->
+<p>
+    <img id="img" src="evao2.png" style="height: 15%; width: 15%;" alt="Eva">
+</p>
+<footer>
+Julian Rendon<br>
+ University of Advancing Technology<br>
+2625 W Baseline Rd<br>
+Tempe, Arizona 85283<br>
+</footer>
 </html>
