@@ -9,18 +9,41 @@
 </head>
 <!--header-->
 <header>
-    <nav>
-        <h2>
-        <a href="./index.html">Home</a><br>
-        <a href="./boards.html">Boards</a><br>
-        </h2>
-    </nav>
+    <!--Nav Header-->
+    <h2>
+        <nav>
+        <a href="./index.html">Home</a>
+        <a href="./boards.html">Boards</a>
+        <a href="./game.html">Game</a>
+        <a href="./strings.html">Strings</a>
+        <a href="./Palindrome checka.html">Palindrome</a>
+        </nav>  
+    </h2>
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+    <!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
 </header>
 
 <body>
-    
+    <div class="left">
     <!--Title-->
-    <h1>Game Programming</h1>
+    <h3>Game Programming Objectives:</h3>
     <ul>
         <!--Program Objectives-->
         <li>Implement multiple completed games, including 3D games, using common tools, languages and software for web, console, PC or mobile platforms.</li>
@@ -30,11 +53,17 @@
         <li>Demonstrate development skills using multiple programming languages, development environments and platforms, including advanced and/or experimental topics in game programming.</li>
         <li>Establish collaboration, mentorship and professional leadership skills by working with other disciplines to deliver highly polished and completed projects.</li>
     </ul>
-    
-    <footer>
-        Julian Rendon<br>
-        University of Advancing Technology<br>
-        2625 W Baseline Rd<br>
-         Tempe, Arizona 85283<br>
-    </footer>
+    </div>
 </body>
+<!--image-->
+<p>
+    <img id="img" src="evao2.png" style="height: 15%; width: 15%;" alt="Eva">
+</p>
+<!--sign-->
+<footer>
+Julian Rendon<br>
+ University of Advancing Technology<br>
+2625 W Baseline Rd<br>
+Tempe, Arizona 85283<br>
+</footer>
+</html>
