@@ -6,28 +6,54 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="main.css">
 </head>
-
+<!--header-->
 <header>
-    <div class="header">
-        <h1>
+    <!--Nav header-->
+    <h2>
+        <nav>
         <a href="./index.html">Home</a>
-        <a href="./boards.html">Boards</a><br>
-        </h1>
-</div>
-</header>
+        <a href="./boards.html">Boards</a>
+        <a href="./game.html">Game</a>
+        <a href="./strings.html">Strings</a>
+        <a href="./Palindrome checka.html">Palindrome</a>
+        </nav>
+    </h2>
 
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+        <!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+        
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+        
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
+</header>
 <body>
-    <!--Image-->
-    <p>
-        <img id="memeImage" src="evao2.png" style="height: 15%; width: 15%">
-    </p>
-    <!--Links-->
-    
+<!--landing page-->
+    <h3>Welcome to my Webpage</h3>
+    <p></p>
+</body>
+<!--Image-->
+<p>
+    <img id="memeImage" src="evao2.png" style="height: 25%; width: 25%">
+</p>
+<!--sign-->
 <footer>
     Julian Rendon<br>
      University of Advancing Technology<br>
     2625 W Baseline Rd<br>
     Tempe, Arizona 85283<br>
 </footer>
-</body>
+
 </html>
