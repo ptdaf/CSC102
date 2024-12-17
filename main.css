@@ -84,3 +84,10 @@ picture{
     left: 0px;
     top: 10px;
 }
+
+#memeImage{
+    height: 15%;
+    width: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
