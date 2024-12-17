@@ -1,5 +1,5 @@
 // game function
-function play(){
+function playGame(){
      // var x with random gen from 1 to 20
     var x = Math.floor((Math.random()*20)+1);
     // var x with random gen from 1 to 10
