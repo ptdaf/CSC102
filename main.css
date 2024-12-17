@@ -16,7 +16,6 @@ header{
     border-bottom-left-radius: 100px;
 }
 
-
 h1{
     padding-bottom: 20px;
     font-family: Verdana;
@@ -62,20 +61,6 @@ footer{
 
 }
 
-.left{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    text-align: left;
-    font-family: Verdana;
-}
-
-.game{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: Verdana;
-    font-size: 30px;
-}
-
 button{
     height: 100px;
     width: 250px;
@@ -85,18 +70,6 @@ button{
 input{
     height: 30px;
     width: 200px;
-}
-
-.verify{
-    font-size: 25px;
-    font-family: Verdana;
-}
-
-.Palindrome{
-    font-size: 20;
-    font-family: verdana;
-    background-color: transparent;
-    color: black;
 }
 
 audio{
