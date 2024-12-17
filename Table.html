@@ -5,46 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
-    <link rel="stylesheet" href="chillin.css">
+    <link rel="stylesheet" href="main.css">
+    <!--internal style-->
     <style>
         table, th, td{
             text-align: center;
+            font-size: 30px;
             border-collapse: collapse;
             border:1px solid black;
             width: 33%;
+            height: 50px;
             margin-left: auto;
             margin-right: auto;
         }
+
+        .sandwich{
+            color: green;
+        }
+
+        .soup{
+            color: rgb(200, 0, 0);
+        }
+
+        .side{
+            color:royalblue
+        }
     </style>
 </head>
-
-<header>center</header>
-
-<table class="table">
-    <tr>
-        <th>Sandwiches</th>
-        <th>Soup</th>
-        <th>Sides</th>
-    </tr>
-    <tr>
-        <td>Subs</td>
-        <td>Chicken Noodle</td>
-        <td>Fries</td>
-    </tr>
-    <tr>
-        <td>Burgers</td>
-        <td>Cereal</td>
-        <td>Brocolli</td>
-    </tr>
-    <tr>
-        <td>Lettuce Wraps</td>
-        <td>Tomato soup</td>
-        <td>Salsa</td>
-    </tr>
-</table>
-
-<body>
-
-</body>
-
+<!--header-->
+<header>    
+    <!--Nav Header-->
+    <h2>
+        <nav>
+        <a href="./index.html">Home</a>
+        <a href="./boards.html">Boards</a>
+        <a href="./game.html">Game</a>
+        <a href="./strings.html">Strings</a>
+        <a href="./Palindrome checka.html">Palindrome</a>
+        <a href="./Table.html">Table</a>
+        </nav>  
+    </h2>
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+<!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+    
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
+</header>
+    <!--Page Desc-->
+    <h3>Food Category Table</h3>
+    <!--Table Content-->
+    <table >
+        <tr>
+            <th class="sandwich">Sandwiches</th>
+            <th class="soup">Soup</th>
+            <th class="side">Sides</th>
+        </tr>
+        <tr>
+            <td class="sandwich">Subs</td>
+            <td class="soup">Chicken Noodle</td>
+            <td class="side">Fries</td>
+        </tr>
+        <tr>
+            <td class="sandwich">Burgers</td>
+            <td class="soup">Cereal</td>
+            <td class="side">Brocolli</td>
+        </tr>
+        <tr>
+            <td class="sandwich">Lettuce Wraps</td>
+            <td class="soup">Tomato soup</td>
+            <td class="side">Salsa</td>
+        </tr>
+    </table>
 </html>
