@@ -1,0 +1,80 @@
+<!--Julian Rendon-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Game</title>
+        <!-- CSS link -->
+         <link rel="stylesheet" href="main.css">
+         <style>
+            .centr{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: Verdana;
+                font-size: 30px;
+            }
+         </style>
+    </head>
+
+    <header>
+        <!--Nav Header-->
+        <h2>
+            <nav>
+            <a href="./index.html">Home</a>
+            <a href="./boards.html">Boards</a>
+            <a href="./game.html">JS Game</a>
+            <a href="./strings.html">Strings</a>
+            <a href="./Palindrome checka.html">Palindrome</a>
+            <a href="./Table.html">Table</a>
+            <a href="./My Game.html">My Game</a>
+            </nav>  
+        </h2>
+    <!--Header Logo-->
+    <picture>
+        <img src="uat-logo.png" alt="UAT-logo" style="height: 75%; width: 75%;">
+    </picture>
+<!--Music-->
+    <audio controls id="music">
+        <source src="lofisong.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+        var myMusic= document.getElementById("music");
+        function play() {
+        myMusic.play();
+        }
+
+        function pause() {
+        myMusic.pause();
+        }
+    </script>
+</header>
+
+<!--Game Link-->
+<body>
+    <div class="centr">
+    <!--Title-->
+    <h3>My game is called Ursid Undoing</h3>
+        <!--Game Desc-->
+        <li>This game is a third person shooter where the player plays as a bear.</li>
+        <li>The player controls the bear and hurls logs at these barrels in the game.</li>
+        <li>Eliminating the barrels will give you a number of points that will display on your score.</li>
+        <li>You win when you eliminate a enough barrels to reach a certain score.</li>
+        <li>This game is a working in progress and early access still. Bear with me.</li>
+        <!--Game Link-->
+        <a href="https://ptdaf.itch.io/ursid-undoing" target="=_blank">Ursid Undoing</a>
+    </div>
+</body>
+<!--image-->
+<p>
+    <img id="img" src="evao2.png" style="height: 15%; width: 15%;" alt="Eva">
+</p>
+<!--sign-->
+<footer>
+Julian Rendon<br>
+ University of Advancing Technology<br>
+2625 W Baseline Rd<br>
+Tempe, Arizona 85283<br>
+</footer>
+</html>
